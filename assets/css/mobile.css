@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 @media (max-width: 480px){
-
+	.line {
+		width: 50px;
+	}
 }
 
 @media (max-width: 768px){
-		h1 {
+		#CenterText, #aboutText h1, #hireText h1 {
 	text-align: center;
 	font-weight: 900;
 	font-size: 75px;

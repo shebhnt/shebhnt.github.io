@@ -10,51 +10,67 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<script src="assets/js/main.js" type="application/javascript"></script>
-	
 </head>
 
-<body>
+<body class="contact">
 <div class="content">
-	<div id="CenterText">
-		<h1 id="introtext">Enter</h1>
-		<p id="introHelper">Space/Tap to continue</p>
+<div id="hireText">
+	<h1>Contact Me</h1>
+	<p>Got a question or need some work?</p>
+	<form method="post" action="https://formspree.io/shebinc@me.com">
+							<div class="row uniform 50%">
+								<div class="6u 12u(mobilep)" style="padding-right: 10px;">
+									<input type="text" name="name" id="name" value="" placeholder="Name" />
+								</div>
+								<div class="6u 12u(mobilep)">
+									<input type="email" name="_replyto" id="email" value="" placeholder="Email" />
+								</div>
+							</div>
+							<div class="row uniform 50%">
+								<div class="12u">
+									<input type="text" name="_subject" id="subject" value="" placeholder="Subject" />
+								</div>
+							</div>
+							<div class="row uniform 50%">
+								<div class="12u">
+									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+							</div>
+                            <input type="hidden" name="_next" value="thankyou.html" />
+							<div class="row uniform">
+								<div class="12u">
+									<ul class="actions align-center">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+	
+	
+</div>
+<h2>Looking for something else?</h2>
 	</div>
-	<div id="TextForSite">
-		<p class="active">Oh, Hello!</p>
-		<p>My name is Shelbey Hunt, welcome to my website.</p>
-		<p>How can I help you today?</p>
-		<p></p>
-	</div>
-	</div>
-		<div id="Options">
-			<div class="items aboutMeItem">
+	<div id="Options">
+		<div class="items aboutMeItem">
 			
-				<div class="line"></div>
+				<div class="line white"></div>
 				<p><a href="javascript:goToAbout()"><span class="fa-stack spinner fa-3x"> <i class="fa fa-circle-thin fa-stack-1x" aria-hidden="true"></i><i class="fa fa-circle-o-notch fa-spin fa-stack-1x"></i></span></a></p>
 				<p><a href="javascript:goToAbout()"> <i class="fa fa-user fa-3x fa-fw" aria-hidden="true"></i></a></p>
 				<a href="javascript:goToAbout()"><h3> About Me </h3>
 				</a>
 			</div>
 			<div class="items myWorkItem">
-				<div class="line"></div>
+				<div class="line white"></div>
 				<p><span class="fa-stack spinner fa-3x"> <i class="fa fa-circle-thin fa-stack-1x" aria-hidden="true"></i><i class="fa fa-circle-o-notch fa-spin fa-stack-1x"></i></span></p> 
 				<p><i class="fa fa-3x fa-briefcase fa-fw" aria-hidden="true"></i></p>
 				<h3>My Work</h3>
 			</div>
 			<div class="items hireMeItem">
-				<div class="line"></div>
+				<div class="line white"></div>
 				<p><a href="javascript:goToHire()"><span class="fa-stack spinner fa-3x"> <i class="fa fa-circle-thin fa-stack-1x" aria-hidden="true"></i><i class="fa fa-circle-o-notch fa-spin fa-stack-1x"></i></span></a></p> 
 				<p><a href="javascript:goToHire()"><i class="fa fa-3x fa-handshake-o fa-fw" aria-hidden="true"></i></a></p> 
 				<a href="javascript:goToHire()"><h3>Hire Me</h3></a>
 			</div>
-			<div class="items contactMeItem">
-				<div class="line"></div>
-				<p><a href="javascript:goToContact()"><span class="fa-stack spinner fa-3x"> <i class="fa fa-circle-thin fa-stack-1x" aria-hidden="true"></i><i class="fa fa-circle-o-notch fa-spin fa-stack-1x"></i></span>,</a></p> 
-				<p><a href="javascript:goToContact()"><i class="fa fa-3x fa-envelope fa-fw" aria-hidden="true"></i></a></p>
-				<h3><a href="javascript:goToContact()">Contact Me</a></h3>
-			</div>
 	</div>
-	
-
 </body>
 </html>
