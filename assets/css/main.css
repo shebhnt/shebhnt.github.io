@@ -120,11 +120,12 @@ h3 {
 .white {
 	background-color: white;
 }
-/* About Text */
 
-#aboutText {
+.content {
 	margin: 5% 20%;
 }
+
+/* About Text */
 
 #aboutText h1 {
 	font-size: 150px;
@@ -146,10 +147,6 @@ h3 {
 	background-color: #58FA59;
 }
 
-#hireText {
-	margin: 5% 20%;
-}
-
 #hireText h1 {
 	font-size: 150px;
 	font-weight: 900;
@@ -168,23 +165,6 @@ h3 {
 .contact {
 	background-color: #000;
 	color: #fff;
-}
-
-#hireText {
-	margin: 5% 20%;
-}
-
-#hireText h1 {
-	font-size: 150px;
-	font-weight: 900;
-	text-align: center;
-	margin-bottom: 30px;
-	
-}
-#hireText p {
-	font-size: 24px;
-	line-height: 30px;
-	margin-bottom: 20px;
 }
 
 /* Grid */
