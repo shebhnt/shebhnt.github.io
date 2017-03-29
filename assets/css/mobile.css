@@ -12,4 +12,7 @@
 	font-weight: 900;
 	font-size: 75px;
 }
+	#hireText, #aboutText, #contactText {
+	margin: 5% 5%;
+	}
 }
