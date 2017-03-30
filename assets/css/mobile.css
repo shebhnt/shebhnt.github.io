@@ -4,6 +4,10 @@
 	.line {
 		width: 50px;
 	}
+	#CenterText {
+		height: 90vh;
+		margin-top:5vh;
+	}
 }
 
 @media (max-width: 768px){
