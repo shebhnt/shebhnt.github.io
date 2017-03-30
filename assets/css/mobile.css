@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 768px){
-		.content h1 {
+		.content h1, #CenterText h1 {
 	text-align: center;
 	font-weight: 900;
 	font-size: 75px;
@@ -33,7 +33,7 @@
 	.content {
 	margin: 5% 10%;
 	}
-			.content h1 {
+			.content h1, #CenterText h1 {
 	font-size: 100px;
 }
 		h2 {

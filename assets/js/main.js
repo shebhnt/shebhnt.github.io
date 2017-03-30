@@ -145,7 +145,7 @@ $( document ).ready(function() {
 	}, 1000);
 	if ($('body').hasClass('about') || $('body').hasClass('hire') || $('body').hasClass('contact') || $('body').hasClass('work')) {
 		turnOnOptions();
-		isHome =0;
+		isHome = 0;
 	}
 	document.body.onkeyup = function(e){
 		if(e.keyCode === 32){
