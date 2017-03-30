@@ -5,8 +5,7 @@
 		width: 50px;
 	}
 	#CenterText {
-		height: 90vh;
-		margin-top:5vh;
+		min-height: 100%;
 	}
 }
 
