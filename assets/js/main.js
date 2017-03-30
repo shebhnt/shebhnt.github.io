@@ -114,7 +114,7 @@ $( document ).ready(function() {
 	$('.content').animate({
 		opacity: 1
 	}, 1000);
-	if ($('body').hasClass('about') || $('body').hasClass('hire') || $('body').hasClass('contact')) {
+	if ($('body').hasClass('about') || $('body').hasClass('hire') || $('body').hasClass('contact') || $('body').hasClass('work')) {
 		turnOnOptions();
 	}
 	document.body.onkeyup = function(e){
