@@ -41,6 +41,7 @@
 /* Text */
 html, body {
 	height: 100%;
+	margin: 0;
 }
 a {
 	text-decoration: none;
@@ -64,18 +65,19 @@ h3 {
 }
 .content {
 	opacity: 0;
+	
+	
 }
 #CenterText {
 	height: 100vh;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
 	width: 100%;
 	text-align: center;
 	font-weight: 900;
 	font-size: 150px;
-	
 	align-self: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 #introHelper {
 	font-style: italic;

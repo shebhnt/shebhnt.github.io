@@ -20,10 +20,7 @@
 	font-size: 50px;
 
 }
-	#CenterText {
-	height: 80vh;
-		margin-top: 10vh;
-}
+
 }
 
 @media (min-width: 980px) and (max-width: 1280px){

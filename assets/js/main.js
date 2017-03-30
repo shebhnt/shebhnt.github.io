@@ -2,6 +2,7 @@
 var endOfIntro = 0;
 var done = 1;
 var width = $(window).width();
+var isHome = 1;
 
 var showText = function (target, message, index, interval) {   
 	done = 0;
@@ -49,6 +50,10 @@ function goToAbout() {
 	$('.myWorkItem').css('opacity', '0');
 	$('.hireMeItem').css('opacity', '0');
 	$('.contactMeItem').css('opacity', '0');
+	if (isHome === 1) {
+		console.log('on home');
+		$('#CenterText').css('opacity', '0');
+	}
 	$('.aboutMeItem').animate({
 		opacity: 0
 	}, 2000, function(){
@@ -64,6 +69,9 @@ function goToContact() {
 	$('.myWorkItem').css('opacity', '0');
 	$('.hireMeItem').css('opacity', '0');
 	$('.aboutMeItem').css('opacity', '0');
+	if (isHome === 1) {
+		$('#CenterText').css('opacity', '0');
+	}
 	$('.contactMeItem').animate({
 		opacity: 0
 	}, 2000, function(){
@@ -79,10 +87,31 @@ function goToHire() {
 	$('.myWorkItem').css('opacity', '0');
 	$('.aboutMeItem').css('opacity', '0');
 	$('.contactMeItem').css('opacity', '0');
+	if (isHome === 1) {
+		$('#CenterText').css('opacity', '0');
+	}
 	$('.hireMeItem').animate({
 		opacity: 0
 	}, 2000, function(){
 		window.location.href = 'hire.html';
+	});
+	
+}
+
+function goToWork() {
+	$('body').removeClass().addClass('work');
+	$('.line').removeClass('white');
+	$('.content').css('opacity', '0');
+	$('.hireMeItem').css('opacity', '0');
+	$('.aboutMeItem').css('opacity', '0');
+	$('.contactMeItem').css('opacity', '0');
+	if (isHome === 1) {
+		$('#CenterText').css('opacity', '0');
+	}
+	$('.myWorkItem').animate({
+		opacity: 0
+	}, 2000, function(){
+		window.location.href = 'work.html';
 	});
 	
 }
@@ -116,6 +145,7 @@ $( document ).ready(function() {
 	}, 1000);
 	if ($('body').hasClass('about') || $('body').hasClass('hire') || $('body').hasClass('contact') || $('body').hasClass('work')) {
 		turnOnOptions();
+		isHome =0;
 	}
 	document.body.onkeyup = function(e){
 		if(e.keyCode === 32){
