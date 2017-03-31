@@ -6,10 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="assets/css/main.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+<link href="assets/css/simple-grid.min.css" rel="stylesheet">
 <script src="https://use.fontawesome.com/9b8d425b53.js"></script>
 <link href="assets/css/mobile.css" rel="stylesheet" type="text/css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+	<script src="assets/js/modal/jquery.modal.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="assets/js/modal/jquery.modal.min.css" type="text/css" media="screen">
 	<script src="assets/js/main.js" type="application/javascript"></script>
 </head>
 
@@ -17,59 +19,123 @@
 <div class="content">
 <div id="workText">
 	<h1>My Work</h1>
+	<div class="container">
 	<h3>Websites:</h3>
-	<div class="row uniform">
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+	<div class="row">
+		<div class="col-4 myWork style1">
+			<span class="image">
+				<img src="assets/images/naamc-thumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">thenaamc.org</a>
 		</div>
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+		<div class="col-4 myWork style1">
+			<span class="image">
+				<img src="assets/images/donor-thumbnail.jpg">
+			</span>
+			<a href="#missDonorPage" rel="modal:open" class="hvr-grow">Missionary Donor Pages</a>
 		</div>
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+		<div class="col-4 myWork style1">
+			<span class="image">
+				<img src="assets/images/sim-thumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">SIM.org</a>
 		</div>
 	</div>
-	<br>
+	
 	<h3>Film:</h3>
-	<div class="row uniform">
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+	<div class="row ">
+		<div class="col-4 myWork style2">
+			<span class="image">
+				<img src="assets/images/amari-thumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">Amari</a>
 		</div>
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+		<div class="col-4 myWork style2">
+			<span class="image">
+				<img src="assets/images/bill-thumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">Bill's Testimony</a>
 		</div>
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+		<div class="col-4 myWork style2">
+			<span class="image">
+				<img src="assets/images/elrefugio-thumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">El Refugio Promo</a>
 		</div>
 	</div>
 	<br>
 	<h3>Design:</h3>
-	<div class="row uniform">
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+	<div class="row ">
+		<div class="col-4 myWork style3">
+			<span class="image">
+				<img src="assets/images/adventurethumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">Adventure Awaits</a>
 		</div>
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+		<div class="col-4 myWork style3">
+			<span class="image">
+				<img src="assets/images/afrigo-thumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">AfriGo/Allons-y !</a>
 		</div>
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+		<div class="col-4 myWork style3">
+			<span class="image">
+				<img src="assets/images/naamc-thumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">thenaamc.org</a>
 		</div>
 	</div>
 	<br>
 	<h3>Photos:</h3>
-	<div class="row uniform">
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+	<div class="row ">
+		<div class="col-4 myWork style4">
+			<span class="image">
+				<img src="assets/images/zebra-thumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">Africa</a>
 		</div>
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+		<div class="col-4 myWork style4">
+			<span class="image">
+				<img src="assets/images/naamc-thumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">thenaamc.org</a>
 		</div>
-		<div class="4u 12u(mobilep)">
-			<img src="assets/images/Screen Shot 2017-03-29 at 4.30.01 PM.png" class="image fit">
+		<div class="col-4 myWork style4">
+			<span class="image">
+				<img src="assets/images/naamc-thumbnail.jpg">
+			</span>
+			<a href="#naamc" rel="modal:open" class="hvr-grow">thenaamc.org</a>
 		</div>
 	</div>
 	<br>
+	</div>
 	
+</div>
+<div style="display: none">
+	<div id="naamc" class="modal">
+		<div class>
+		<iframe src="http://thenaamc.org/" width="100%" height="500px"></iframe>
+		</div>
+		<div style="width: 100%; padding-left: 5px;">
+			<br>
+			<h3>The NAAMC Website</h3>
+			<br>
+			<p>I recently was contracted by the National African American Missions Conference to redesign their website.</p><br>
+			<p>This was a complete overhaul from their previous site.  The reorginization of where content was located and a new user interface helps visitors learn what they need to know first and then find out more detailed content if they want to.</p><br>
+		</div>
+	</div>
+	<div id="missDonorPage" class="modal">
+		<div class>
+		<iframe src="https://qwipper.com/web/shelbeyrachelhunt/home" width="100%" height="500px"></iframe>
+		</div>
+		<div style="width: 100%; padding-left: 5px;">
+			<br>
+			<h3>Missionary Donor Pages</h3>
+			<br>
+			<p>Part of my posistion at SIM is to work on new tools and resources our missionaries can use.</p><br>
+			<p>To help make it easier for our missionaries to have an online presence, I designed a template that we use with our intranet to easily generate simple sites.</p><br>
+		</div>
+	</div>
 </div>
 <h2>Looking for something else?</h2>
 	</div>
