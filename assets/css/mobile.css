@@ -5,7 +5,7 @@
 		width: 50px;
 	}
 	#CenterText {
-		min-height: 90%;
+		min-height: 80%;
 	}
 	input[type="text"], input[type="password"], input[type="email"], select, textarea {
 		width: 90%;
