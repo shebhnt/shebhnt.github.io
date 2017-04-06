@@ -29,12 +29,16 @@ function turnOnOptions() {
 }
 
 function setUpOptions() {
+	var fSize = "75px";
+	if (width < 481) {
+		fSize = "50px";
+	}
 	$( '#introHelper' ).animate({
 		opacity: 0
 	}, 500, function() {
 		$( "#CenterText" ).animate({
 			height: "30vh",
-			fontSize: '75px'
+			fontSize: fSize
 		}, 2000, function(){			
 			turnOnOptions();
 		});
