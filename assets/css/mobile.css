@@ -19,6 +19,9 @@
 }
 
 @media (max-width: 768px){
+	.content h1 {
+		font-size: 75px;
+	}
 
 	.content {
 	margin: 5% 5%;
