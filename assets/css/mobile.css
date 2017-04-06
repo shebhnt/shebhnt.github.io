@@ -15,6 +15,9 @@
 	input[type="text"], input[type="password"], input[type="email"], select, textarea {
 		width: 90%;
 	}
+	.content h1 {
+		font-size: 75px;
+	}
 	
 }
 
