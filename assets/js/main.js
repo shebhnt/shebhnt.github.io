@@ -18,8 +18,16 @@ var showText = function (target, message, index, interval) {
 function turnOnOptions() {
 	
 	$( "#Options" ).css('display', 'block');
+	$('footer').css('display', 'block');
 	var items = $('.items');
 	var i = 0;
+	for (i = 0; i < items.length; i++) {
+		var item = $(items[i]);
+		item.animate({
+			opacity: 1
+		}, 1000);
+	}
+	items = $('.botitems');
 	for (i = 0; i < items.length; i++) {
 		var item = $(items[i]);
 		item.animate({
@@ -54,6 +62,7 @@ function goToAbout() {
 	$('.myWorkItem').css('opacity', '0');
 	$('.hireMeItem').css('opacity', '0');
 	$('.contactMeItem').css('opacity', '0');
+	$('footer').css('opacity','0');
 	if (isHome === 1) {
 		console.log('on home');
 		$('#CenterText').css('opacity', '0');
@@ -73,6 +82,7 @@ function goToContact() {
 	$('.myWorkItem').css('opacity', '0');
 	$('.hireMeItem').css('opacity', '0');
 	$('.aboutMeItem').css('opacity', '0');
+	$('footer').css('opacity','0');
 	if (isHome === 1) {
 		$('#CenterText').css('opacity', '0');
 	}
@@ -91,6 +101,7 @@ function goToHire() {
 	$('.myWorkItem').css('opacity', '0');
 	$('.aboutMeItem').css('opacity', '0');
 	$('.contactMeItem').css('opacity', '0');
+	$('footer').css('opacity','0');
 	if (isHome === 1) {
 		$('#CenterText').css('opacity', '0');
 	}
@@ -109,6 +120,7 @@ function goToWork() {
 	$('.hireMeItem').css('opacity', '0');
 	$('.aboutMeItem').css('opacity', '0');
 	$('.contactMeItem').css('opacity', '0');
+	$('footer').css('opacity','0');
 	if (isHome === 1) {
 		$('#CenterText').css('opacity', '0');
 	}
