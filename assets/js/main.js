@@ -1,4 +1,7 @@
 // 
+//
+//Not a Javascript wizard by any means but pretty proud of the simple stuff I put together.  I am very glad I live in age with stack overflow
+
 var endOfIntro = 0;
 var done = 1;
 var width = $(window).width();
