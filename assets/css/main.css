@@ -195,19 +195,23 @@ footer {
 	margin-bottom: 20px;
 }
 
-/* About Text */
+/* food Text */
+.food {
+	background-color:#68bff3;
+	color: white;
+}
 
-.about h3 {
+.food h3 {
 	margin-bottom: 10px;
 	font-weight: 900;
 }
 
-.about li {
+.food li {
 	font-size: 1.5em;
 	line-height: 2em;
 }
 
-.about ul {
+.food ul {
 	list-style: circle;
 	margin-bottom: 2em;
 }
