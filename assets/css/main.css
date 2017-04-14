@@ -197,7 +197,20 @@ footer {
 
 /* About Text */
 
+.about h3 {
+	margin-bottom: 10px;
+	font-weight: 900;
+}
 
+.about li {
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+.about ul {
+	list-style: circle;
+	margin-bottom: 2em;
+}
 
 /* Hire Text */
 
