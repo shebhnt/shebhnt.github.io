@@ -1,5 +1,8 @@
 // JavaScript Document
-function openedVault(x) {
-	x.text('you opened the vault');
-	console.log('called');
+function openedVault(y, x) {
+	if (y === '12345') {
+		x.text('you opened the vault');
+	} else {
+		x.text('incorrect password');
+	}
 }
