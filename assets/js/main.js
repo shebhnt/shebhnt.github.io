@@ -162,7 +162,7 @@ $( document ).ready(function() {
 	$('.content').animate({
 		opacity: 1
 	}, 1000);
-	if ($('body').hasClass('about') || $('body').hasClass('hire') || $('body').hasClass('contact') || $('body').hasClass('work')) {
+	if ($('body').hasClass('about') || $('body').hasClass('hire') || $('body').hasClass('contact') || $('body').hasClass('work') || $('body').hasClass('fourofour')) {
 		turnOnOptions();
 		isHome = 0;
 	}

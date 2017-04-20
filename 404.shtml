@@ -1,0 +1,78 @@
+<!--Welcome to my site, I'm not very good with comments but I will try to do my best!-->
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shelbey Hunt</title>
+<meta property="og:url"                content="https://shebhnt.github.io" />
+<meta property="og:type"               content="website" />
+<meta property="og:title"              content="My name is Shelbey Hunt and this is my website" />
+<meta property="og:description"        content="Come stop by and get to know about me and what I do, I have cookies!  Of course, this is a website so I'm not sure how I can give them to you... guess I'll just eat them myself." />
+<meta property="og:image"              content="https://shebhnt.github.io/assets/images/fbimage.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+<script src="https://use.fontawesome.com/9b8d425b53.js"></script>
+<link href="assets/css/mobile.css" rel="stylesheet" type="text/css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="assets/js/main.js" type="application/javascript"></script>
+	
+</head>
+
+<body class="fourofour">
+
+	<div class="content">
+		<h1 id="introtext">What? Why are you here?</h1>
+		<p>Hmmm.... it looks like you took a wrong turn somewhere. You can either <a href="index.html" style="color: #f26270">go back to the start</a> or maybe you are looking for one of the options below.</p>
+	</div>
+		<div id="Options">
+			<div class="items aboutMeItem">
+			
+				<div class="line"></div>
+				<p><a href="javascript:goToAbout()"><span class="fa-stack spinner fa-3x"> <i class="fa fa-circle-thin fa-stack-1x" aria-hidden="true"></i><i class="fa fa-circle-o-notch fa-spin fa-stack-1x"></i></span></a></p>
+				<p><a href="javascript:goToAbout()"> <i class="fa fa-user fa-3x fa-fw" aria-hidden="true"></i></a></p>
+				<a href="javascript:goToAbout()"><h3> Who are you?</h3>
+				</a>
+			</div>
+			<div class="items myWorkItem">
+				<div class="line"></div>
+				<p><a href="javascript:goToWork()"><span class="fa-stack spinner fa-3x"> <i class="fa fa-circle-thin fa-stack-1x" aria-hidden="true"></i><i class="fa fa-circle-o-notch fa-spin fa-stack-1x"></i></span></a></p> 
+				<p><a href="javascript:goToWork()"><i class="fa fa-3x fa-briefcase fa-fw" aria-hidden="true"></i></a></p>
+				<h3><a href="javascript:goToWork()">What have you done?</a></h3>
+			</div>
+			<div class="items hireMeItem">
+				<div class="line"></div>
+				<p><a href="javascript:goToHire()"><span class="fa-stack spinner fa-3x"> <i class="fa fa-circle-thin fa-stack-1x" aria-hidden="true"></i><i class="fa fa-circle-o-notch fa-spin fa-stack-1x"></i></span></a></p> 
+				<p><a href="javascript:goToHire()"><i class="fa fa-3x fa-handshake-o fa-fw" aria-hidden="true"></i></a></p> 
+				<a href="javascript:goToHire()"><h3>Are you for hire?</h3></a>
+			</div>
+			<div class="items contactMeItem">
+				<div class="line"></div>
+				<p><a href="javascript:goToContact()"><span class="fa-stack spinner fa-3x"> <i class="fa fa-circle-thin fa-stack-1x" aria-hidden="true"></i><i class="fa fa-circle-o-notch fa-spin fa-stack-1x"></i></span>,</a></p> 
+				<p><a href="javascript:goToContact()"><i class="fa fa-3x fa-envelope fa-fw" aria-hidden="true"></i></a></p>
+				<h3><a href="javascript:goToContact()">I have more questions.</a></h3>
+			</div>
+	</div>
+	<footer>
+		<ul class="inline">
+			<li class="botitems"><a href="https://medium.com/@washhunt"><i class="fa fa-medium fa-3x" aria-hidden="true"></i></a></li>
+			<li class="botitems"><a href="https://www.behance.net/shelbeywhu9943"><i class="fa fa-behance fa-3x" aria-hidden="true"></i></a></li>
+			<li class="botitems"><a href="https://www.instagram.com/shebhnt/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+			<li class="botitems"><a href="https://github.com/shebhnt/"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+			<li class="botitems"><a href="https://www.facebook.com/shelbeyhunt"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></li>
+		</ul>
+	</footer>
+<!--	Don't forget your analytics-->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88120449-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
