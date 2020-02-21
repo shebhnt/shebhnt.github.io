@@ -194,7 +194,15 @@ footer {
 	line-height: 30px;
 	margin-bottom: 20px;
 }
+.content li {
+	font-size: 1.5em;
+	line-height: 2em;
+}
 
+.content ul {
+	list-style: circle;
+	margin-bottom: 2em;
+}
 
 
 /* food Text */
