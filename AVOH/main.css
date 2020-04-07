@@ -1,0 +1,429 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Text */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Josefin+Sans');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    color: #bfd630;
+    font-size: 7em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+}
+
+h1 small {
+    color: white;
+    font-size: .4em;
+}
+
+h2 {
+    color: #00adef;
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size:2em;
+    font-weight: 600;
+    color: #00adef;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size:1.7em;
+    font-weight: 600;
+    color: #00adef;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+a {
+    font-family: 'Fira Sans', sans-serif;
+    color: #00adef;
+}
+
+footer a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 15px;
+}
+
+footer p {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 15px;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+}
+
+.smaller {
+    font-size: 1.2em;
+}
+
+.blue {
+    color: #00adef;
+}
+
+.green {
+    color: #bfd630;
+}
+
+.centered {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    color: white;
+    background: #00adef;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+}
+
+.btn-green {
+    background: #bfd630;
+}
+
+hr { 
+    border: 0; 
+    height: 1px; 
+    background: #333; 
+    background-image: linear-gradient(to right, #e0e0e0, #555, #e0e0e0); 
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.faq { 
+    border: 0; 
+    height: 1px; 
+    background: #333; 
+    background-image: linear-gradient(to right, #e0e0e0, #555, #e0e0e0); 
+    margin-bottom: 50px;
+    width: 60%;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #00adef;
+}
+
+/* Colors */
+
+.blue-tint {
+    background-color: rgba(214,243,255,.2);
+}
+
+.green-tint {
+    background-color: rgba(172,201,36,.01);
+}
+
+.swoosh {
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
+.circle-icon {
+    width:146px;
+    height: 146px;
+    border-radius: 73px;
+    background: #bfd630;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* header */
+
+.topNav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    background: rgba(45,45,45,0);
+    transition: background .5s ease-out;
+}
+
+.dark {
+    background: rgba(45,45,45,.75);
+}
+
+.topNav a {
+    font-size: .9em;
+    color: white;
+    text-decoration: none;
+}
+
+.topNav a:hover {
+    color: 00adef;
+    text-decoration: underline;
+}
+
+#nav {
+    align-content: flex-end;
+    
+}
+
+#center-text {
+    margin: 150px 0;
+}
+
+#header-main {
+    background: url(img/DJI_0016.JPG);
+    background-image: linear-gradient(to top right, rgba(172, 201, 36, 0.57), rgba(0, 163, 230, 0.2)), linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,.5)),url(img/DJI_0016.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navToggle {
+    color: white;
+    display: none;
+}
+
+.navItems {
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.navItem {
+   padding-right: 25px; 
+}
+
+#logo {
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+/* Images */
+
+.rounded {
+    border-radius: 50%;
+}
+
+/* Grid */
+
+.container {
+    padding: 10px 10%;
+    display: grid;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.row-column {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 150px; 
+}
+
+.top-align {
+    align-items: flex-start;
+}
+
+footer .row {
+    margin-bottom: 25px;
+}
+
+.close{
+    justify-content: space-around;
+}
+
+.quarter {
+    width: 25%;
+    padding:10px;
+}
+
+.quarter-mob {
+    width: 25%;
+    padding:10px;
+}
+
+.third {
+    width: 33%;
+    padding: 10px;
+}
+
+.half {
+    width:50%;
+    padding: 10px;
+}
+
+.two-third {
+    width: 66%;
+    padding: 10px;
+}
+
+.three-quarter {
+    width: 75%;
+    padding: 10px;
+}
+
+.full {
+    width: 100%;
+    padding: 10px;
+}
+
+.break {
+    margin-bottom: 25px;
+}
+
+.big-break {
+    margin-bottom: 100px;
+}
+
+.icon-space {
+    height: 120px;
+}
+
+/* Mobile Queries */
+
+@media all and (max-width: 768px) {
+    .quarter, .half, .two-third, .third, .three-quarter, .full {
+        display: block;
+        padding: 0px 10%;
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .quarter-mob {
+        width: 46%;
+        padding: 2% 2%;
+        float: left;
+    }
+    .row {
+        display: block;
+    }
+    .container {
+    margin: 0 5px;
+    padding: 0px;
+    display: grid;
+    }
+    h1 {
+    
+    font-size: 4em;
+    
+}
+    h2 {
+        text-align: center;
+    }
+    .swoosh {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    }
+    .topNav {
+        flex-direction: column;
+        background: rgba(45,45,45,.75);
+    }
+    .navItems {
+        flex-direction: column;
+        display: none;
+        margin-right: auto;
+        font-size: 1.2em;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    #logo {
+        display: flex;
+        padding-left: 0;
+    }
+    .logo {
+        align-self: flex-start;
+        
+    }
+    .navToggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+        right: 25px;
+        top: 32px;
+    }
+    .navItem{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        padding: 0px;
+    }
+    .show {
+        display: flex;
+    }
+}
